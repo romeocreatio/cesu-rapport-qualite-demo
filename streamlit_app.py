@@ -317,7 +317,7 @@ st.markdown("---")
 # Étape 1  — Extraction Rapport Qualité : PDF Digiforma
 # =====================================================
 
-st.subheader("Étape 1  — Extraction Rapport Qualité : PDF format Digiforma")
+st.subheader("Phase 1 - Analyse du rapport qualité Digiforma")
 
 with st.form("meta_form", clear_on_submit=False):
     c1, c2 = st.columns(2)
@@ -326,8 +326,8 @@ with st.form("meta_form", clear_on_submit=False):
     with c2:
         semestre = st.text_input("Semestre", placeholder="ex: S1 2025")
 
-    uploaded_pdf = st.file_uploader("Uploader le PDF Digiforma (rapport qualité)", type=["pdf"])
-    submitted = st.form_submit_button("Analyser le PDF", use_container_width=True, type="primary")
+    uploaded_pdf = st.file_uploader("Uploader le rapport qualité", type=["pdf"])
+    submitted = st.form_submit_button("Analyser le rapport", use_container_width=True, type="primary")
 
 if submitted:
     if not uploaded_pdf or not nom_formation or not semestre:
@@ -336,7 +336,7 @@ if submitted:
 
     # 1) Lecture du PDF complet (texte brut + OCR fallback si vide)
     file_bytes = uploaded_pdf.read()
-    with st.spinner("Lecture du PDF (texte + OCR si nécessaire) ..."):
+    with st.spinner("Lecture du fichier (texte + OCR si nécessaire) ..."):
         full_text, pages_text, used_ocr = read_pdf_all_text(file_bytes)
 
     with st.expander("🔎 Aperçu du texte lu (pré-traitement)", expanded=False):
@@ -383,7 +383,7 @@ if submitted:
     try:
         validated = OutputPayload.model_validate(v2_payload)
     except Exception as e:
-        st.error(f"Le JSON retourné ne respecte pas le schéma v2.1: {e}")
+        st.error(f"Le JSON retourné ne respecte pas le schéma v2.2: {e}")
         st.json(v2_payload)
         st.stop()
 
@@ -434,9 +434,9 @@ if submitted:
             for msg in missing_msgs:
                 st.markdown(f"- {msg}")
 
-    # 10) Téléchargement JSON v2.1
+    # 10) Téléchargement JSON v2.2
     st.download_button(
-        label="📥 Télécharger le JSON (v2.1)",
+        label="📥 Télécharger le JSON v2.2",
         data=json_str,
         file_name=safe_name,
         mime="application/json",
@@ -449,7 +449,7 @@ st.markdown("---")
 # Étape 2 — Transformation Excel format (json_v2 ➜ json_excel)
 # =====================================================
 
-st.subheader("Étape 2 — Transformation Excel format")
+st.subheader("Phase 2 - Structuration des données")
 
 DIR_JSON_V2 = project_root / "json_v2"
 DIR_JSON_EXCEL = project_root / "json_excel"
@@ -471,7 +471,7 @@ else:
     with st.form("form_excel", clear_on_submit=False):
         c1, c2 = st.columns([2, 1])
         with c1:
-            selected = st.selectbox("Choisir un fichier JSON (v2.1) :", files, index=0)
+            selected = st.selectbox("Choisir un fichier JSON (v2.2) :", files, index=0)
         with c2:
             demande_as_list = st.toggle(
                 "Sujets en liste (Excel)",
@@ -516,7 +516,7 @@ st.markdown("---")
 # Phase 3 — Injection Google Sheets (prod)
 # =====================================================
 
-st.subheader("Phase 3 — Injection Google Sheets Drive")
+st.subheader("Phase 3 — Intégration dans le suivi qualité ")
 
 json_excel_dir = DIR_JSON_EXCEL
 json_excel_dir.mkdir(exist_ok=True)
