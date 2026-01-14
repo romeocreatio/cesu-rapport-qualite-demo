@@ -81,12 +81,21 @@ def check_auth():
         return
 
     # Formulaire de login
+    
     st.title("🔐 Authentification requise")
-
-    # Champs inchangés sauf le label
     in_user = st.text_input("Identifiant")
     in_pass = st.text_input("Mot de passe", type="password")
     login = st.button("Se connecter")
+
+    if login:
+        if in_user == username and in_pass == password:
+            st.session_state.authenticated = True
+            st.success("Connexion réussie ✅")
+            st.experimental_rerun()
+        else:
+            st.error("Identifiants incorrects ❌")
+
+    st.stop()
 
 
 # =====================================================
@@ -308,7 +317,7 @@ st.markdown("---")
 # Étape 1  — Extraction Rapport Qualité : PDF Digiforma
 # =====================================================
 
-st.subheader("Étape 1  — Extraction Rapport Qualité : PDF Digiforma")
+st.subheader("Étape 1  — Extraction Rapport Qualité : PDF format Digiforma")
 
 with st.form("meta_form", clear_on_submit=False):
     c1, c2 = st.columns(2)
