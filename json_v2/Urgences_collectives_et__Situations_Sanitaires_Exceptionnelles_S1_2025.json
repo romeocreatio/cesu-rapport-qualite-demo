@@ -1,0 +1,406 @@
+{
+  "version_prompt": "v2.1",
+  "Nom formation": "Urgences collectives et  Situations Sanitaires Exceptionnelles ",
+  " semestre": "S1 2025 ",
+  "pre_formation": {
+    "volonte_suivi_formation": {
+      "nb votants": 22
+    },
+    "souhaitez_vous_suivre_distribution": [
+      {
+        "echele 5": "5",
+        "nb_votants": 18,
+        "pourcentage": 82.0
+      },
+      {
+        "echele 4": "4",
+        "nb_votants": 4,
+        "pourcentage": 18.0
+      },
+      {
+        "echele 3": "3",
+        "nb_votants": 0,
+        "pourcentage": 0.0
+      },
+      {
+        "echele 2": "2",
+        "nb_votants": 0,
+        "pourcentage": 0.0
+      },
+      {
+        "echele 1": "1",
+        "nb_votants": 0,
+        "pourcentage": 0.0
+      }
+    ],
+    "demande_sujets_a_aborder": [
+      "Prise en charge des patients selon les différents de niveaux de gravité",
+      "SSE",
+      "Gestion du stress dans les SSE Organisation des équipes",
+      "Je serais intéressé de savoir ce qui toléré de faire pour un ADE SMUR dans le cadre du dammage control au delà du tirage START et XABCDE. Pose Asherman ? Exculfflation pneumothorax compressif ?",
+      "Utilisation EPI en risque NRBC. approfondir l'organisation des orsec novi et orsan amavi",
+      "Damage control Triage xABCDE",
+      "Honnêtement je ne sais pas. On m'a dit que la formation était super intéressante que j'allais apprendre plein de chose. Donc je ne sais pas quel sujet de quoi parler le plus.",
+      "Triage SSE",
+      "Apprendre à connaître les différentes situations en crise",
+      "Tous",
+      ".",
+      "pratiques de damage control. triage secouriste start",
+      "les principes de triages. l'organisation des soins en cas d'attentats et de risques nucléaires.",
+      "les principes de triage. l'organisation des secours. le plan ORSEC",
+      "la prise en charge de tous type de situation en SSE",
+      "Risques sanitaires potentiel dans futur proche",
+      "Comment réagir dans l urgence de la mise en place d un plan blanc",
+      "Nsp",
+      "Organisation prévu au CHITS en cas de SSE. les répercutions du l'organisation au bloc opératoire. Comment utiliser mes compétences professionnelles au mieux pour être efficace. Optimisation de notre prise en charge.",
+      "NA",
+      "je voudrais aborder dans cette formation notre rôle en temps que ambulancier smur en cas de de crise sse",
+      "gestes de premier secours. tri des patients"
+    ],
+    "maitrise_objectifs_preformation": {
+      "mode": "4_niveaux",
+      "par_objectif": [
+        {
+          "objectif_label": "Conformes aux annexes AFGSU spécialisées 3.4.5 et 9 de l’arrêté du 19 juillet 2019 modifiant l’arrêté du 30 décembre 2014 relatif à l’attestation de formation aux gestes et soins d’urgence",
+          "levels": {
+            "totalement": 1.0,
+            "en_partie": 15.0,
+            "insuffisamment": 4.0,
+            "pas_du_tout": 2.0
+          },
+          "note_sur_10": 6.7
+        },
+        {
+          "objectif_label": "Stratégie médicale du Damage Control (Annexe 5) - 7H: - Connaître les principes de triage et de prise en charge des blessés par armes de guerre et des autres blessés graves en préhospitalier et en intra hospitalier - Connaître les différentes phases du « damage control » dans le parcours de soins du blessé (préhospitalier. accueil hospitalier. chirurgical) - Connaître les indications et maîtriser les techniques de « damage control » en fonction de la spécialité de chaque intervenant - Connaître les contraintes sécuritaires liées à ce type de situation et leurs conséquences sur l’organisation des secours et des soins - Connaître la traçabilité des patients (SINUS/CIVIC) et les principes d’identitovigilance - Savoir identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "levels": {
+            "totalement": 0.0,
+            "en_partie": 6.0,
+            "insuffisamment": 9.0,
+            "pas_du_tout": 7.0
+          },
+          "note_sur_10": 4.9
+        },
+        {
+          "objectif_label": "Prise en charge des patients victimes d'agent nucléaire. radiologique et chimique (Annexe 9) - 7H - Identifier un risque NRC dès la régulation médicale ou à l'accueil des urgences à partir des éléments de contexte. des moyens de détection et recueil des signes cliniques - Maîtriser les mesures de protection individuelle et collective permettant d'éviter un transfert de contamination - Connaître les principes de prise en charge des patients en préhospitalier et en intrahospitalier et de traitements des intoxications par agents nucléaires. radiologiques et chimiques - Connaître les principes de décontamination d'urgence et les indications de décontamination approfondie - Savoir assurer sous équipements de protection individuelle. le triage et la prise en charge des patients en urgences vitales tout en procédant aux mesures de décontamination (mise en condition. administration d'antidotes) - Connaître les indications et savoir administrer les médicaments antidotes disponibles dans les postes sanitaires mobiles et les autres moyens projetables",
+          "levels": {
+            "totalement": 0.0,
+            "en_partie": 5.0,
+            "insuffisamment": 7.0,
+            "pas_du_tout": 10.0
+          },
+          "note_sur_10": 4.4
+        },
+        {
+          "objectif_label": "Prise en charge d'une urgence collective en préhospitalier (Annexe 3) - 3H30: - Connaître le plan ORSEC NOVI et son articulation avec le dispositif ORSAN (plan ORSAN AMAVI) - Identifier le rôle du SAMU. des SMUR. de la CUMP et de l' ARS dans l'organisation du plan ORSEC NOVI - Connaître les principes de régulation médicale des urgences collectives - Connaître les principes de triage et d'initiation du parcours de soins des patients dans le cadre de la régulation médicale - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Connaître les modalités de traçabilité des victimes (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître la composition et les modalités de déploiement des postes sanitaires mobiles (PSM) - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatique chez les blessés et parmi les personnels et professionnels de santé intervenants",
+          "levels": {
+            "totalement": 0.0,
+            "en_partie": 6.0,
+            "insuffisamment": 9.0,
+            "pas_du_tout": 7.0
+          },
+          "note_sur_10": 4.9
+        },
+        {
+          "objectif_label": "Prise en charge d'un afflux massif de victimes non contaminées en établissement de santé (Annexe 4) - 3H30 - Connaître les principes et l'organisation de la prise en charge d'un afilux de blessés en établissement de santé principes de triage et parcours de soins des patients - Comprendre le rôle du directeur médical de crise et des différents professionnels de santé et personnels intervenants - Connaître l'organisation des plateaux techniques participant à l'accueil des patients urgences. bloc opératoire. imagerie. laboratoires. soins post-interventionnels. réanimation. etc - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Savoir assurer la traçabilité des patients (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "levels": {
+            "totalement": 0.0,
+            "en_partie": 6.0,
+            "insuffisamment": 7.0,
+            "pas_du_tout": 9.0
+          },
+          "note_sur_10": 4.7
+        }
+      ],
+      "note_globale_objectifs_preformation": 5.1
+    }
+  },
+  "a_chaud": {
+    "formation_profitable": {
+      "oui": 33.0,
+      "non": 0.0,
+      "oui_percent": 100.0,
+      "non_percent": 0.0
+    },
+    "satisfaction_contenu": [
+      {
+        "label": "Très satisfait(e)",
+        "count": 29.0,
+        "percent": 88.0
+      },
+      {
+        "label": "Satisfait(e)",
+        "count": 4.0,
+        "percent": 12.0
+      },
+      {
+        "label": "Déçu(e)",
+        "count": 0.0,
+        "percent": 0.0
+      },
+      {
+        "label": "Sans opinion",
+        "count": 0.0,
+        "percent": 0.0
+      }
+    ],
+    "note_globale_a_chaud": 9.5,
+    "points_forts": [
+      "Équilibre théorie/pratique Supports pédagogiques Simulation",
+      "Formation adaptée à tous les niveaux",
+      "Les informations essentielles sont reabordées plusieurs fois ( Xabcde. start. ... ) Exemples concrets donnés Formation très vivante avec alternance de théorie et de mise en situation",
+      "Mélange de pratique et de théorie très bien organisé",
+      "Tout était très bien fait. que ce soit matériel ou organisation des ateliers",
+      "Elle est stimulantes on ne reste pas assis Différents ateliers pratiques Jeux en groupe dynamique qui permettent de se rapprocher de la réalité",
+      "Très intéressant. Formation ludique qui permet d’apprendre en s’amusant",
+      "Les connaissances des formateurs et la mise en place de simulations",
+      "Encore une fois très bonne formation. dans la bonne humeur et la bienveillance Mention spéciale pour la journée NRBC. thème compliqué abordé de façon ludique. qui permet d’ancrer de la meilleure des façons les connaissances.",
+      "Les ateliers L esprit d équipe Le dynamisme",
+      "QUALITÉ",
+      "Dynamique/exercices pratiques",
+      "Théorie /pratique Recherche perso celon les sujets Mise en situation",
+      "Richesse du contenu. les ateliers",
+      "Les ateliers",
+      "Les mises en situation et les debriefs",
+      "Formations ludique ++ apports transmis de façons diverses. + mise en situation très réaliste",
+      "Apprendre à gérer une situation sanitaire exceptionnelle ou du moins en connaître les points forts",
+      "Ambiance détendue. adaptation à chaque niveau des participants..",
+      "Intervenants accessibles aux questions. Réponses claires et synthétiques. permettant de retenir le principal",
+      "Beaucoup de mises en condition et de simulations",
+      "Apports théoriques complet. simulations réalistes et immersives. transférabilité professionnelle",
+      "L’expérience des encadrants",
+      "Bonne mise en situation et apport théorique de qualité",
+      "Des formateurs très impliqués Bonne connaissance du terrain",
+      "Les mises en situations+++",
+      "Alternance de théorie et de mise en pratique.",
+      "Les sujets abordés",
+      "Ras",
+      "Explication précise et efficace",
+      "Explications très précises et efficaces",
+      "L’afflux massif de patients",
+      "L'ensemble"
+    ],
+    "points_a_ajuster": [
+      ".",
+      "Aucun",
+      "Supports écrits ?",
+      "Allonger la durée de formation pour approfondir certains points évoqués",
+      "Rien à dire",
+      "On pourrait avoir à la fin de la formation des fiches recapituliaves de ce qu’on a vu pendant 3 jours",
+      "Pas d’idées",
+      "Le repas ^^",
+      "Aucun",
+      "Aucun",
+      "Pas de réponse",
+      "Ras",
+      "Le public visé. Soignant/non soignant par ex...",
+      "Compliqué pour du personnel non médical. Faire une formation peut être plus adaptée pour les tâches faites en gestion de crise pour le personnel non soignant",
+      "Aucun",
+      "Niveau matériel",
+      ".",
+      ".",
+      "Je ne sais pas",
+      "Aucune",
+      "Plus de médecins",
+      "Aucune",
+      "J ai trouver que la 2 eme journée était trop intense concernant les différentes attaques. Beaucoup de choses à assimiler",
+      "Aucun",
+      "Nsp",
+      "Rien",
+      "Je n en vois pas",
+      "Aucun",
+      "Peut être avoir des termes un peu plus commun pour la bonne compréhension de chacun",
+      "Aucun"
+    ],
+    "suggestions_complement_sur_formation": [
+      ".",
+      "",
+      "Repas ? Supports écrits ?",
+      "Aucune",
+      "Une fiche memo-technique pour les personnes qui sont non IDE. Cadre ou Médecin...",
+      "Un peu plus de truc au petit déjeuner",
+      "Pas d’idées",
+      "Pas de suggestions...",
+      "Tout était parfait",
+      "Vraiment rien à dire",
+      "Malheureusement il faudrait faire plus souvent de training. avec plus de moyens etc.... Mais c'est totalement utopique. Donc dans les faits. avec les moyens réels et actuels c'est top.",
+      "Pas de réponse",
+      "Ras",
+      ".",
+      "..",
+      "Formation au top qui donne envie de continuer en savoir plus",
+      "Rien à changé formation très bien faite",
+      "Aucunes",
+      "Ras",
+      "Ne changez rien",
+      ".",
+      "Introduire des gestes d'urgence à mobiliser en complément du tri ? (RCP. PLS. LVA. Heimlich...). Pour évaluer notre réactivité et notre sang-froid face à une situation urgente au décours d'une SSE ? Peut-être trop compliqué/non pertinent ?",
+      "Aucunes",
+      "Simulation sur victime réelles simulées",
+      "Non",
+      "Faire une piqûre de rappel avant les 4 ans recommandé",
+      "Visite sur site pour se rendre plus compte",
+      "A réitérer mais dans un laps de temps pas trop lointain",
+      "j",
+      "Aucun",
+      "Aucun",
+      "RAS"
+    ],
+    "appreciations_intervenants": [
+      "Bienveillants. Passionnés. Pédagogues",
+      "Accessibles et pédagogues",
+      "La formation est dynamique. ludique . concrète et précise Difficile de transmettre la quantité d informations que vous avez à passer mais vous avez réussi à capter l'attention des participants . Merci pour la bonne énergie dégagée durant les 3 jours",
+      "Très pédagogues. qui s’adaptent à tous les niveaux des apprenants Très imaginatifs pour les situations concrètes",
+      "Les intervenants étaient été très dynamique et present",
+      "Très agréable souriant abordables",
+      "Bienveillants Ludique De véritables ressources (connaissances)",
+      "Un parfait équilibre entre bonne humeur pédagogique et la pratique",
+      "Bienveillants. formateurs. patients",
+      "Des personnes formidables . très agréable . dynamiques . avec beaucoup de savoir",
+      "Top",
+      "Très professionnels",
+      "Très professionnel et bonne pédagogie Propos clair et accessible",
+      "Des formateurs à l'écoute. bienveillants",
+      "Très sympathiques. compétents. ludiques",
+      "Sympathiques. hautement compétents. bienveillants",
+      "Intervenants accecible. apport comprenssible malgré le thème peu pratiqué dans notre quotidien professionnel.",
+      "Intervenants bienveillants et à l écoute.. Propose des cours ludiques et bien réalisés",
+      "A l'écoute. prennent le temps d expliquer et montrer les gestes. Attentifs.",
+      "Très bon relationnel. Leurs interventions sont très intéressantes et favorisent l’apprentissage. « Cours » très réactifs.",
+      "Tous les intervenants ont été au top et sont très compétents et bienveillants",
+      "Pédagogues. abordables. clairs. intéressants. disponibles",
+      "Professionnels",
+      "Professionnel accueillant compétant",
+      "Excellente formation. très intéressante. A refaire régulièrement",
+      "Les intervenants ont été pédagogues",
+      "Adaptés. efficaces. concis. clairs.",
+      "Intervenants mettant à l'aise les apprenants. utilisant de façon concrète les connaissances avec des cas pratiques . Sérieux. organisés. pleins de ressources",
+      "Très bien bonne pédagogie",
+      "Très bon formateurs disponible",
+      "Très compétents",
+      "Parfait",
+      "Merci de partager vos connaissances"
+    ],
+    "maitrise_objectifs_a_chaud": {
+      "mode": "notes_sur_10",
+      "par_objectif": [
+        {
+          "objectif_label": "Conformes aux annexes AFGSU spécialisées 3.4.5 et 9 de l’arrêté du 19 juillet 2019 modifiant l’arrêté du 30 décembre 2014 relatif à l’attestation de formation aux gestes et soins d’urgence",
+          "note_sur_10": 7.2
+        },
+        {
+          "objectif_label": "Stratégie médicale du Damage Control (Annexe 5) - 7H: - Connaître les principes de triage et de prise en charge des blessés par armes de guerre et des autres blessés graves en préhospitalier et en intra hospitalier - Connaître les différentes phases du « damage control » dans le parcours de soins du blessé (préhospitalier. accueil hospitalier. chirurgical) - Connaître les indications et maîtriser les techniques de « damage control » en fonction de la spécialité de chaque intervenant - Connaître les contraintes sécuritaires liées à ce type de situation et leurs conséquences sur l’organisation des secours et des soins - Connaître la traçabilité des patients (SINUS/CIVIC) et les principes d’identitovigilance - Savoir identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "note_sur_10": 7.3
+        },
+        {
+          "objectif_label": "Prise en charge des patients victimes d'agent nucléaire. radiologique et chimique (Annexe 9) - 7H: - Identifier un risque NRC dès la régulation médicale ou à l'accueil des urgences à partir des éléments de contexte. des moyens de détection et recueil des signes cliniques - Maîtriser les mesures de protection individuelle et collective permettant d'éviter un transfert de contamination - Connaître les principes de prise en charge des patients en préhospitalier et en intrahospitalier et de traitements des intoxications par agents nucléaires. radiologiques et chimiques - Connaître les principes de décontamination d'urgence et les indications de décontamination approfondie - Savoir assurer sous équipements de protection individuelle. le triage et la prise en charge des patients en urgences vitales tout en procédant aux mesures de décontamination (mise en condition. administration d'antidotes) - Connaître les indications et savoir administrer les médicaments antidotes disponibles dans les postes sanitaires mobiles et les autres moyens projetables",
+          "note_sur_10": 6.8
+        },
+        {
+          "objectif_label": "Prise en charge d'une urgence collective en préhospitalier (Annexe 3) - 3H30: - Connaître le plan ORSEC NOVI et son articulation avec le dispositif ORSAN (plan ORSAN AMAVI) - Identifier le rôle du SAMU. des SMUR. de la CUMP et de l' ARS dans l'organisation du plan ORSEC NOVI - Connaître les principes de régulation médicale des urgences collectives - Connaître les principes de triage et d'initiation du parcours de soins des patients dans le cadre de la régulation médicale - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Connaître les modalités de traçabilité des victimes (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître la composition et les modalités de déploiement des postes sanitaires mobiles (PSM) - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatique chez les blessés et parmi les personnels et professionnels de santé intervenants",
+          "note_sur_10": 7.2
+        },
+        {
+          "objectif_label": "Prise en charge d'un afflux massif de victimes non contaminées en établissement de santé (Annexe 4) - 3H30: - Connaître les principes et l'organisation de la prise en charge d'un afilux de blessés en établissement de santé : principes de triage et parcours de soins des patients - Comprendre le rôle du directeur médical de crise et des différents professionnels de santé et personnels intervenants - Connaître l'organisation des plateaux techniques participant à l'accueil des patients : urgences. bloc opératoire. imagerie. laboratoires. soins post-interventionnels. réanimation. etc. - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Savoir assurer la traçabilité des patients (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "note_sur_10": 6.9
+        }
+      ]
+    }
+  },
+  "a_froid": {
+    "note_sur_10": 7.8,
+    "maitrise_objectifs_a_froid": {
+      "mode": "4_niveaux",
+      "par_objectif": [
+        {
+          "objectif_label": "Conformes aux annexes AFGSU spécialisées 3.4.5 et 9 de l’arrêté du 19 juillet 2019 modifiant l’arrêté du 30 décembre 2014 relatif à l’attestation de formation aux gestes et soins d’urgence",
+          "levels": {
+            "totalement": 3.0,
+            "en_partie": 3.0,
+            "insuffisamment": 0.0,
+            "pas_du_tout": 0.0
+          },
+          "note_sur_10": 8.1
+        },
+        {
+          "objectif_label": "Stratégie médicale du Damage Control (Annexe 5) - 7H: - Connaître les principes de triage et de prise en charge des blessés par armes de guerre et des autres blessés graves en préhospitalier et en intra hospitalier - Connaître les différentes phases du « damage control » dans le parcours de soins du blessé (préhospitalier. accueil hospitalier. chirurgical) - Connaître les indications et maîtriser les techniques de « damage control » en fonction de la spécialité de chaque intervenant - Connaître les contraintes sécuritaires liées à ce type de situation et leurs conséquences sur l’organisation des secours et des soins - Connaître la traçabilité des patients (SINUS/CIVIC) et les principes d’identitovigilance - Savoir identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "levels": {
+            "totalement": 2.0,
+            "en_partie": 4.0,
+            "insuffisamment": 0.0,
+            "pas_du_tout": 0.0
+          },
+          "note_sur_10": 8.3
+        },
+        {
+          "objectif_label": "Prise en charge des patients victimes d'agent nucléaire. radiologique et chimique (Annexe 9) - 7H: - Identifier un risque NRC dès la régulation médicale ou à l'accueil des urgences à partir des éléments de contexte. des moyens de détection et recueil des signes cliniques - Maîtriser les mesures de protection individuelle et collective permettant d'éviter un transfert de contamination - Connaître les principes de prise en charge des patients en préhospitalier et en intrahospitalier et de traitements des intoxications par agents nucléaires. radiologiques et chimiques - Connaître les principes de décontamination d'urgence et les indications de décontamination approfondie - Savoir assurer sous équipements de protection individuelle. le triage et la prise en charge des patients en urgences vitales tout en procédant aux mesures de décontamination (mise en condition. administration d'antidotes) - Connaître les indications et savoir administrer les médicaments antidotes disponibles dans les postes sanitaires mobiles et les autres moyens projetables",
+          "levels": {
+            "totalement": 1.0,
+            "en_partie": 4.0,
+            "insuffisamment": 1.0,
+            "pas_du_tout": 0.0
+          },
+          "note_sur_10": 7.5
+        },
+        {
+          "objectif_label": "Prise en charge d'une urgence collective en préhospitalier (Annexe 3) - 3H30: - Connaître le plan ORSEC NOVI et son articulation avec le dispositif ORSAN (plan ORSAN AMAVI) - Identifier le rôle du SAMU. des SMUR. de la CUMP et de l' ARS dans l'organisation du plan ORSEC NOVI - Connaître les principes de régulation médicale des urgences collectives - Connaître les principes de triage et d'initiation du parcours de soins des patients dans le cadre de la régulation médicale - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Connaître les modalités de traçabilité des victimes (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître la composition et les modalités de déploiement des postes sanitaires mobiles (PSM) - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatique chez les blessés et parmi les personnels et professionnels de santé intervenants",
+          "levels": {
+            "totalement": 1.0,
+            "en_partie": 2.0,
+            "insuffisamment": 1.0,
+            "pas_du_tout": 0.0
+          },
+          "note_sur_10": 6.8
+        },
+        {
+          "objectif_label": "Prise en charge d'un afflux massif de victimes non contaminées en établissement de santé (Annexe 4) - 3H30: - Connaître les principes et l'organisation de la prise en charge d'un afilux de blessés en établissement de santé : principes de triage et parcours de soins des patients - Comprendre le rôle du directeur médical de crise et des différents professionnels de santé et personnels intervenants - Connaître l'organisation des plateaux techniques participant à l'accueil des patients : urgences. bloc opératoire. imagerie. laboratoires. soins post-interventionnels. réanimation. etc. - Maîtriser les techniques de prise en charge des blessés notamment les spécificités pédiatriques - Savoir assurer la traçabilité des patients (SINUS/SIVIC) et connaitre les principes d'identitovigilance - Connaître les principes de l'information des proches des victimes et de l'annonce des décès - Identifier les troubles psychiques post-traumatiques chez les blessés et parmi le personnel impliqué",
+          "levels": {
+            "totalement": 1.0,
+            "en_partie": 2.0,
+            "insuffisamment": 0.0,
+            "pas_du_tout": 0.0
+          },
+          "note_sur_10": 6.8
+        }
+      ],
+      "note_globale_objectifs_a_froid": 8.1
+    },
+    "elements_les_plus_utiles": [
+      "Le damage contrôle",
+      "Le triage et la prise en soins des patients",
+      "xABCDE Damage Control Organisation intra-hospitalière en situation SSE",
+      "Comprendre les différents acteurs et leur façon d’interagir dans les SSE. signaux d’alerte qui ferait évoquer une contamination NRBC",
+      "Tout... Partage d'expérience . mise en pratique. et travail de recherche de l'information.",
+      "Découverte de la procédure SSE telle qu'elle sera mise en place sur le CHITS si jamais cela se produit"
+    ]
+  },
+  "intervenants": {
+    "commentaire_conditions_materielles": "Ras ras Ras Ras Il faudrait du faux sang ⯑ Aucun Ras Ras RAS Un jour on aura une vraie chaîne de décontamination 😉 Ras ras Aucune chaleur ++ dans la salle Ras RAS",
+    "commentaire_groupe_apprenants": "Ras ras Ras Ras Groupe engagé niveau homogène Parfait Manque de diversité de fonctions Participatif. volontaire Très bon groupe D origines professionnelles diverses du coup très riche en termes de synergie Dynamique et volontaire Intéressé ras Tres bon groupe Pas de médecin ni d'interne. Pas de cadre Par contre pluri-professionnel et pluri- établissement ok Voir pour chaque semestre si on peut venir à la journée d'accueil des internes pour présenter l'organisme de formation du CHITS ? (vu avec Caroline Sassot qu'elle en parle à M. Knefati. sinon prévoir une demande mail) investi et dynamique Engagé et taille réduite Adaptés",
+    "commentaire_organisation_generale": "Raw ras Ras Ras Ras Génial Ras Très bonne Coopération entre les formateurs Ras RAS Ras ras Aucune Ras Conforme au déroulé pédagogique",
+    "adaptation_horaires": {
+      "reponse": "oui",
+      "precisions": "Aucune Ras Aucun Ras"
+    },
+    "precisions_a_noter": "Aucune Ras Aucun Ras",
+    "explication_modification_programme": "Ras Ras Pas de modification Aucun Ras",
+    "contenu_non_prevu": {
+      "reponse": "non",
+      "de_quoi_s_agissait_il": "Aucun Ras Aucun Ras"
+    },
+    "retards_apprenants": {
+      "oui": 1.0,
+      "non": 27.0
+    },
+    "handicap_signale": {
+      "oui": 0.0,
+      "non": 28.0
+    }
+  },
+  "resultats_evaluations": {
+    "progression_competences_plus_sur_10": 2.9
+  },
+  "meta_extraction": {
+    "graphique_non_lisible": false
+  },
+  "lien_vers_formation": "rapport_qualite_programme_sse-urgences-collectives-et-situations-sanitaires-exceptionnelles- premier semestre 2025 (1).pdf"
+}

@@ -81,27 +81,25 @@ def check_auth():
         return
 
     # Formulaire de login
+    project_root = Path(__file__).parent
+    logo_path = project_root / "assets" / "logo_cesu83.jpeg"
+
+    if logo_path.exists():
+        st.image(str(logo_path), width=120)
+
     st.title("🔐 Authentification requise")
-    in_user = st.text_input("Nom d'utilisateur")
+
+    # Champs inchangés sauf le label
+    in_user = st.text_input("Identifiant")
     in_pass = st.text_input("Mot de passe", type="password")
     login = st.button("Se connecter")
-
-    if login:
-        if in_user == username and in_pass == password:
-            st.session_state.authenticated = True
-            st.success("Connexion réussie ✅")
-            st.experimental_rerun()
-        else:
-            st.error("Identifiants incorrects ❌")
-
-    st.stop()
 
 
 # =====================================================
 # ⚙️ Config Streamlit
 # =====================================================
 
-st.set_page_config(page_title="CESU 83 - Extracteur Qualité", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="eCESU - Extracteur Qualité", page_icon="🩺", layout="wide")
 
 # Appliquer l'auth dès le début
 check_auth()
@@ -306,7 +304,7 @@ with col_logo:
         )
 with col_title:
     st.markdown(
-        "<h2 style='text-align:center;margin-top:0;'>CESU 83 — Extracteur de Rapports Qualité</h2>",
+        "<h2 style='text-align:center;margin-top:0;'>eCESU — Extracteur de Rapports Qualité</h2>",
         unsafe_allow_html=True,
     )
 
@@ -316,7 +314,7 @@ st.markdown("---")
 # Étape 1  — Extraction Rapport Qualité : PDF Digiforma
 # =====================================================
 
-st.subheader("Étape 1  — Extraction Rapport Qualité : PDF format Digiforma")
+st.subheader("Étape 1  — Extraction Rapport Qualité : PDF Digiforma")
 
 with st.form("meta_form", clear_on_submit=False):
     c1, c2 = st.columns(2)
@@ -515,7 +513,7 @@ st.markdown("---")
 # Phase 3 — Injection Google Sheets (prod)
 # =====================================================
 
-st.subheader("Phase 3 — Injection Google Sheets")
+st.subheader("Phase 3 — Injection Google Sheets Drive")
 
 json_excel_dir = DIR_JSON_EXCEL
 json_excel_dir.mkdir(exist_ok=True)
